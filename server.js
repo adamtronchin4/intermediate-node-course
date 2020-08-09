@@ -9,7 +9,7 @@ const app= express();
 app.use(bodyParser.json());
 
 app.listen(port, ()=>{
-	console.log(`server is listening on port:${port}`)
+	console.log(`server is listening on port: ${port}`)
 })
 
 function sendResponse(res, err, data){
